@@ -21,8 +21,8 @@ dependencies {
 
 	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
 	// You may need to force-disable transitiveness on them.
-	implementation 'systems.manifold:manifold-ext-rt:2020.1.42'
-	annotationProcessor group: 'systems.manifold', name: 'manifold-ext', version: '2020.1.42'
+	implementation 'systems.manifold:manifold-ext-rt:2020.1.44'
+	annotationProcessor group: 'systems.manifold', name: 'manifold-ext', version: '2020.1.44'
 }
 
 processResources {
